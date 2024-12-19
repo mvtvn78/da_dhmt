@@ -134,6 +134,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scenes\Introduction.h" />
+    <ClInclude Include="Scenes\Main.h" />
+    <ClInclude Include="Scenes\Scene.h" />
+    <ClInclude Include="Utils\Constant.h" />
+    <ClInclude Include="Utils\Constants.h" />
+    <ClInclude Include="Utils\Utils.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
