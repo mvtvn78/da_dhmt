@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\freeglut\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\Free_Type\include;$(SolutionDir)\freeglut\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Free_Type\lib;$(SolutionDir)\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -112,7 +112,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>freeglut.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -140,7 +140,11 @@
     <ClInclude Include="Scenes\Scene.h" />
     <ClInclude Include="Utils\Constant.h" />
     <ClInclude Include="Utils\Constants.h" />
+    <ClInclude Include="Utils\TextRenderer.h" />
     <ClInclude Include="Utils\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

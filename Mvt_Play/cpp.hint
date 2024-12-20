@@ -1,0 +1,4 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define FT_IMAGE_TAG(value, _x1, _x2, _x3, _x4) value = ( ( FT_STATIC_BYTE_CAST( unsigned long, _x1 ) << 24 ) | ( FT_STATIC_BYTE_CAST( unsigned long, _x2 ) << 16 ) | ( FT_STATIC_BYTE_CAST( unsigned long, _x3 ) << 8 ) | FT_STATIC_BYTE_CAST( unsigned long, _x4 ) )

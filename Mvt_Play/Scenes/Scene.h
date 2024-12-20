@@ -2,6 +2,8 @@
 #include"../Utils/Utils.h"
 class Scene {
 public: 
-	Utils utl;
-	virtual void display() = 0; // định nghĩa hàm thuần ảo
+	CONSTANTS con;
+	// định nghĩa hàm thuần ảo
+	virtual void display() = 0; 
+	virtual void update() = 0; 
 };

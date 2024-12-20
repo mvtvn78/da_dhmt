@@ -20,16 +20,19 @@ public :
 		SCENE_ID = 0;
 		// khởi  tạo
 		glutInit(&argc, argv);
-		glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+		glutInitDisplayMode(GLUT_DOUBLE  | GLUT_RGBA);
 		glutInitWindowSize(CONS.SCREEN_WIDTH, CONS.SCREEN_HEIGHT);
 		glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH) - CONS.SCREEN_WIDTH) >> 1, (glutGet(GLUT_SCREEN_HEIGHT) - CONS.SCREEN_HEIGHT - 50) >> 1);
+		// Tạo cửa sổ
 		glutCreateWindow(CONS.TITLE);
+		// Khởi tạo thông số đầu tiên
 		init();
 		#pragma region Đăng ký hàm xử lý
 				/*glutReshapeFunc(reshape);*/
-				glutTimerFunc(FPS, update, 0);
 				glutKeyboardFunc(keyboard);
 				glutDisplayFunc(display);
+				glutMouseFunc(mouseEvent);
+				glutTimerFunc(CONS.FPS_ML, update, 0);
 		#pragma endregion
 		glutMainLoop();
 	}
@@ -37,17 +40,44 @@ public :
 	{
 		glMatrixMode(GL_PROJECTION);
 		glLoadIdentity();
-		gluOrtho2D(0, 1400, 0, 800);
+		// định nghĩa khung vẽ
+		gluOrtho2D(0, CONS.SCREEN_WIDTH, 0, CONS.SCREEN_HEIGHT);
+	}
+	static void mouseEvent(int button, int state, int x, int y)
+	{
+		instance->handleMouseEvent(button, state, x, y);
+	}
+	void handleMouseEvent(int button, int state, int x, int y)
+	{
+		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+		{
+			std::wcout << x << " " << y << "\n";
+		}
 	}
 	static void update(int x)
 	{
-		std::cout << x << std:: endl;
+		instance->handleUpdate();
+	}
+	void handleUpdate()
+	{
+		switch (SCENE_ID) {
+			case 0:
+				itScene->update();
+				break;
+			default:
+				break;
+		}
+		// callback
+		glutPostRedisplay();
+
+		// callback
+		glutTimerFunc(CONS.FPS_ML, update, 0);
 	}
 	static void display()
 	{
-		instance->renderScene();
+		instance->handleRenderer();
 	}
-	void renderScene() {
+	void handleRenderer() {
 		switch (SCENE_ID) {
 		case 0:
 			itScene->display();
@@ -55,15 +85,15 @@ public :
 		default:
 			break;
 		}
-		//Ép display
-		glFlush();
+		//Gọi Vẽ
+		glutSwapBuffers();
 	}
 	static void keyboard(unsigned char key, int x, int y)
 	{
 		// xử lý không chấp nhận đăng ký hàm 
-		instance->keypress(key,x,y);
+		instance->handleKeyPress(key,x,y);
 	}
-	void keypress(unsigned char key, int x, int y) {
+	void handleKeyPress(unsigned char key, int x, int y) {
 		switch (key) {
 			// cảnh trước
 			case 'a':

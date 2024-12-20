@@ -1,20 +1,17 @@
 ﻿  main.cpp
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Utils.h(11,19): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(27,38): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1258)
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Utils.h(11,16): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(27,38): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1258)
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(7,28): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(27,38): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1258)
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(7,22): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(33,38): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1258)
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(7,16): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-  (compiling source file 'main.cpp')
-  
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Main.h(30,19): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(37,1): warning C4305: '+=': truncation from 'double' to 'GLfloat'
   (compiling source file 'main.cpp')
   
   Mvt_Play.vcxproj -> F:\Study\Computer_Graphic\Mvt\Mvt_Play\x64\Debug\Mvt_Play.exe

@@ -38,5 +38,11 @@
     <ClInclude Include="Scenes\Introduction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Utils\TextRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
