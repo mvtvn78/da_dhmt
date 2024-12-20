@@ -3,7 +3,7 @@
 #include<fcntl.h>
 int main(int argc, char** argv)
 {
-	// Tiếng Việt
+	//// Tiếng Việt
 	_setmode(_fileno(stdin), _O_U16TEXT);
 	_setmode(_fileno(stdout), _O_U16TEXT);
 	MainScene scene(argc,argv);

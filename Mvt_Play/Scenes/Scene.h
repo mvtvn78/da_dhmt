@@ -1,5 +1,7 @@
 ﻿#pragma once
 #include"../Utils/Utils.h"
+#include <Windows.h>
+#include <mmsystem.h>
 class Scene {
 public: 
 	CONSTANTS con;
