@@ -135,12 +135,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scenes\FireWorks.h" />
     <ClInclude Include="Scenes\Introduction.h" />
     <ClInclude Include="Scenes\Main.h" />
     <ClInclude Include="Scenes\Scene.h" />
+    <ClInclude Include="Utils\Particle.h" />
     <ClInclude Include="Utils\Constant.h" />
     <ClInclude Include="Utils\Constants.h" />
-    <ClInclude Include="Utils\MusicPlayer.h" />
+    <ClInclude Include="Utils\RGB.h" />
     <ClInclude Include="Utils\TextRenderer.h" />
     <ClInclude Include="Utils\Utils.h" />
   </ItemGroup>

@@ -17,7 +17,7 @@ public:
 	void PlayMusicAsync() {
 		bool played = PlaySound(TEXT("../music/introduction.wav"), NULL, SND_ASYNC );
 		if (played)
-			std::wcout << L"Chạy" << std::endl;
+			std::wcout << L"Nhạc Intro bật lên" << std::endl;
 	}
 	Introduction()
 	{
@@ -62,5 +62,8 @@ public:
 	}
 	void update() override {
 		animText();
+	}
+	void mousePress(int button, int state, int x, int y) override {
+
 	}
 };

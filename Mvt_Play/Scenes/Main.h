@@ -6,21 +6,23 @@
 #include"../Utils/Constant.h"
 #include"../Scenes/Scene.h"
 #include"../Scenes/Introduction.h"
+#include"../Scenes/FireWorks.h"
 class MainScene
 {
 private:
 	CONSTANTS CONS;
 	int SCENE_ID;
-	Scene* itScene = new Introduction();
+	Scene* current;
 	static MainScene* instance;
 public : 
 	MainScene(int &argc, char** argv) {
 		instance = this;
 		//MAIN SCENE
-		SCENE_ID = 0;
+		SCENE_ID = CONS.SCENE_INIT;
+		sceneInit();
 		// khởi  tạo
 		glutInit(&argc, argv);
-		glutInitDisplayMode(GLUT_DOUBLE  | GLUT_RGBA);
+		glutInitDisplayMode(GLUT_DOUBLE  | GLUT_RGBA | GLUT_ALPHA | GLUT_DEPTH );
 		glutInitWindowSize(CONS.SCREEN_WIDTH, CONS.SCREEN_HEIGHT);
 		glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH) - CONS.SCREEN_WIDTH) >> 1, (glutGet(GLUT_SCREEN_HEIGHT) - CONS.SCREEN_HEIGHT - 50) >> 1);
 		// Tạo cửa sổ
@@ -49,10 +51,8 @@ public :
 	}
 	void handleMouseEvent(int button, int state, int x, int y)
 	{
-		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
-		{
-			std::wcout << x << " " << y << "\n";
-		}
+		int yReal = ( CONS.SCREEN_HEIGHT - y);
+		current->mousePress(button,state, x, yReal);
 	}
 	static void update(int x)
 	{
@@ -60,13 +60,7 @@ public :
 	}
 	void handleUpdate()
 	{
-		switch (SCENE_ID) {
-			case 0:
-				itScene->update();
-				break;
-			default:
-				break;
-		}
+		current->update();
 		// callback
 		glutPostRedisplay();
 
@@ -78,13 +72,7 @@ public :
 		instance->handleRenderer();
 	}
 	void handleRenderer() {
-		switch (SCENE_ID) {
-		case 0:
-			itScene->display();
-			break;
-		default:
-			break;
-		}
+		current->display();
 		//Gọi Vẽ
 		glutSwapBuffers();
 	}
@@ -105,7 +93,7 @@ public :
 			// cảnh sau
 			case 'd':
 			case 'D':
-				if (SCENE_ID == 15)
+				if (SCENE_ID == 4)
 					break;
 				SCENE_ID++;
 				break;
@@ -117,8 +105,25 @@ public :
 			default:
 				break;
 			}
+		// init Scene
+		sceneInit();
 		// callback lại hàm đăng ký display
 		glutPostRedisplay();
+	}
+	void sceneInit()
+	{
+		PlaySound(NULL, NULL, 0);
+		switch (SCENE_ID)
+		{
+			case 0: 
+				current = new Introduction();
+				break;
+			case 1 :
+				current = new FireWorks();
+				break;
+			default: 
+				break;
+		}
 	}
 };
 // gán nullptr cho instance 

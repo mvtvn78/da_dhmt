@@ -12,4 +12,5 @@ class CONSTANTS
 		const char* PATH_FONT_REGULAR = "../font/SFUFuturaRegular.TTF";
 		const char* PATH_FONT_BOLD = "../font/SFUFuturaBold.TTF";
 		const char* PATH_FONT_THUPHAP = "../font/FzThuPhapTieuTu-Full.ttf";
+		const int SCENE_INIT = 1;
 };

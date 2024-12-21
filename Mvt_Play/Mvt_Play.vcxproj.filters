@@ -41,7 +41,13 @@
     <ClInclude Include="Utils\TextRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utils\MusicPlayer.h">
+    <ClInclude Include="Scenes\FireWorks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\RGB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

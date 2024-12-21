@@ -11,7 +11,37 @@ F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(27,38): war
 F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\TextRenderer.h(33,38): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1258)
   (compiling source file 'main.cpp')
   
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(12,20): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(13,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(44,50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(44,22): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(54,1): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
 F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(10,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(10,39): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(67,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(66,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(65,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(65,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
   Mvt_Play.vcxproj -> F:\Study\Computer_Graphic\Mvt\Mvt_Play\x64\Debug\Mvt_Play.exe
