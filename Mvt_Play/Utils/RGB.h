@@ -29,6 +29,6 @@ std::vector<MyRGB> colors = {
 MyRGB getRandomColor() {
 	// 0 -> n-1
 	int index = rand() % (colors.size());
-	std::wcout << "INDEX COLOR : "<<index << std::endl;
+	/*std::wcout << "INDEX COLOR : "<<index << std::endl;*/
 	return colors[index];
 }

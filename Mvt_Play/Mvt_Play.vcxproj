@@ -139,6 +139,9 @@
     <ClInclude Include="Scenes\Introduction.h" />
     <ClInclude Include="Scenes\Main.h" />
     <ClInclude Include="Scenes\Scene.h" />
+    <ClInclude Include="Scenes\Summary.h" />
+    <ClInclude Include="Scenes\Summer.h" />
+    <ClInclude Include="Scenes\Winter.h" />
     <ClInclude Include="Utils\Particle.h" />
     <ClInclude Include="Utils\Constant.h" />
     <ClInclude Include="Utils\Constants.h" />

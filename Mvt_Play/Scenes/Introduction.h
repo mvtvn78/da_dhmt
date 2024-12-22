@@ -21,6 +21,11 @@ public:
 	}
 	Introduction()
 	{
+		glMatrixMode(GL_PROJECTION);
+		glLoadIdentity();
+		// định nghĩa khung vẽ
+		gluOrtho2D(0, con.SCREEN_WIDTH, 0, con.SCREEN_HEIGHT);
+		//
 		x_title = (con.SCREEN_WIDTH >> 1) -430;
 		titile_renderer.loadFont(con.PATH_FONT_REGULAR, 100);
 		topic_renderer.loadFont(con.PATH_FONT_REGULAR, 50);
@@ -64,6 +69,10 @@ public:
 		animText();
 	}
 	void mousePress(int button, int state, int x, int y) override {
+		/*if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+		{
+			std::wcout << x << " " << y << "\n";
+		}*/
 
 	}
 };

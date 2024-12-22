@@ -29,19 +29,340 @@ F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Utils\Particle.h(54,1): warning 
 F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Introduction.h(10,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(10,39): warning C4305: 'initializing': truncation from 'double' to 'const float'
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(12,39): warning C4305: 'initializing': truncation from 'double' to 'const float'
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(67,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(200,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(66,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(247,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(65,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(246,45): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
   (compiling source file 'main.cpp')
   
-F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(65,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(245,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\FireWorks.h(245,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(27,30): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(27,23): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(27,16): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(86,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(87,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(134,84): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(157,84): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(201,89): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(212,89): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(313,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(314,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(319,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(320,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Summer.h(520,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(12,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(13,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(36,56): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(36,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(36,16): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(42,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(44,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(45,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(63,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(64,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(65,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(76,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(133,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(143,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(146,25): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(146,17): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(278,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(348,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(356,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(384,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(396,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(400,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(485,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(569,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(653,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(733,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(813,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(897,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(897,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(938,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(938,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(945,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(945,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(952,22): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(952,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(963,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(969,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(971,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(977,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(977,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(977,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(999,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1006,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1006,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1006,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1038,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1038,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1056,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1056,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1056,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1065,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1065,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1072,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1072,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1072,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1082,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1082,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1109,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1109,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1118,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1118,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1183,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1183,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1184,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1184,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1185,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1185,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1186,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1186,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1187,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1187,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1188,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1188,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1189,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1189,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1190,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1190,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1191,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1191,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1207,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1207,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1209,30): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1210,31): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1211,32): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1212,32): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1213,31): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1214,31): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1215,30): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1216,31): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1238,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1248,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
   Mvt_Play.vcxproj -> F:\Study\Computer_Graphic\Mvt\Mvt_Play\x64\Debug\Mvt_Play.exe

@@ -7,6 +7,9 @@
 #include"../Scenes/Scene.h"
 #include"../Scenes/Introduction.h"
 #include"../Scenes/FireWorks.h"
+#include"../Scenes/Summer.h"
+#include"../Scenes/Winter.h"
+
 class MainScene
 {
 private:
@@ -22,7 +25,7 @@ public :
 		sceneInit();
 		// khởi  tạo
 		glutInit(&argc, argv);
-		glutInitDisplayMode(GLUT_DOUBLE  | GLUT_RGBA | GLUT_ALPHA | GLUT_DEPTH );
+		glutInitDisplayMode(GLUT_DOUBLE  | GLUT_RGBA | GLUT_ALPHA | GLUT_DEPTH);
 		glutInitWindowSize(CONS.SCREEN_WIDTH, CONS.SCREEN_HEIGHT);
 		glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH) - CONS.SCREEN_WIDTH) >> 1, (glutGet(GLUT_SCREEN_HEIGHT) - CONS.SCREEN_HEIGHT - 50) >> 1);
 		// Tạo cửa sổ
@@ -30,13 +33,21 @@ public :
 		// Khởi tạo thông số đầu tiên
 		init();
 		#pragma region Đăng ký hàm xử lý
-				/*glutReshapeFunc(reshape);*/
+				glutReshapeFunc(reshape);
 				glutKeyboardFunc(keyboard);
 				glutDisplayFunc(display);
 				glutMouseFunc(mouseEvent);
 				glutTimerFunc(CONS.FPS_ML, update, 0);
 		#pragma endregion
 		glutMainLoop();
+	}
+
+	static void reshape(int w, int h) {
+		instance->handleReshape(w, h);
+	}
+	void handleReshape(int w, int h) {
+		glViewport(0, 0, (GLsizei)w, (GLsizei)h);
+		glMatrixMode(GL_MODELVIEW);
 	}
 	void init()
 	{
@@ -112,6 +123,7 @@ public :
 	}
 	void sceneInit()
 	{
+		
 		PlaySound(NULL, NULL, 0);
 		switch (SCENE_ID)
 		{
@@ -119,11 +131,20 @@ public :
 				current = new Introduction();
 				break;
 			case 1 :
+				current = new Summer();
+				break;
+			case 2 :
+				current = new Winter();
+				break;
+			case 3:
 				current = new FireWorks();
 				break;
-			default: 
+			default:
+				SCENE_ID = CONS.SCENE_INIT;
+				sceneInit();
 				break;
-		}
+		}	
+		
 	}
 };
 // gán nullptr cho instance 
