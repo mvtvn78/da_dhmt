@@ -36,6 +36,8 @@ public :
 		#pragma region Đăng ký hàm xử lý
 				glutReshapeFunc(reshape);
 				glutKeyboardFunc(keyboard);
+				// Đăng ký callback cho phím đặc biệt (mũi tên)
+				glutSpecialFunc(specialKey);
 				glutDisplayFunc(display);
 				glutMouseFunc(mouseEvent);
 				glutTimerFunc(CONS.FPS_ML, update, 0);
@@ -87,6 +89,31 @@ public :
 		current->display();
 		//Gọi Vẽ
 		glutSwapBuffers();
+	}
+	static void specialKey(int key, int x, int y)
+	{
+		instance->handleSpecialKey(key, x, y);
+	}
+	void handleSpecialKey(int key, int x, int y)
+	{
+		switch (key) {
+		case GLUT_KEY_LEFT:  // Mũi tên trái
+			if (SCENE_ID == 0)
+				break;
+			SCENE_ID--;
+			break;
+		case GLUT_KEY_RIGHT:  // Mũi tên trái
+			if (SCENE_ID == 4)
+				break;
+			SCENE_ID++;
+			break;
+		default:
+			break;
+		}
+		// init Scene
+		sceneInit();
+		// callback lại hàm đăng ký display
+		glutPostRedisplay();
 	}
 	static void keyboard(unsigned char key, int x, int y)
 	{
