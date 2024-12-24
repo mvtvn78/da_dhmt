@@ -365,4 +365,13 @@ F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1238,16): warnin
 F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Winter.h(1248,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Autumn.h(79,25): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Autumn.h(92,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+F:\Study\Computer_Graphic\Mvt\Mvt_Play\Mvt_Play\Scenes\Autumn.h(248,1): warning C4305: '+=': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
   Mvt_Play.vcxproj -> F:\Study\Computer_Graphic\Mvt\Mvt_Play\x64\Debug\Mvt_Play.exe

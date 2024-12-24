@@ -135,6 +135,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scenes\Autumn.h" />
     <ClInclude Include="Scenes\FireWorks.h" />
     <ClInclude Include="Scenes\Introduction.h" />
     <ClInclude Include="Scenes\Main.h" />

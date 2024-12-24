@@ -62,7 +62,7 @@ public:
 	}
 	void handleUpdate()
 	{
-		std::wcout << y << std::endl;
+		//std::wcout << y << std::endl;
 		if (y >= 1400)
 		{
 			isEndAnimText = true;

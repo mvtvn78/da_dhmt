@@ -9,6 +9,7 @@
 #include"../Scenes/FireWorks.h"
 #include"../Scenes/Summer.h"
 #include"../Scenes/Winter.h"
+#include"../Scenes/Autumn.h"
 
 class MainScene
 {
@@ -133,10 +134,13 @@ public :
 			case 1 :
 				current = new Summer();
 				break;
-			case 2 :
+			case 2:
+				current = new Autumn();
+				break;
+			case 3 :
 				current = new Winter();
 				break;
-			case 3:
+			case 4:
 				current = new FireWorks();
 				break;
 			default:
