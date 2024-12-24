@@ -101,17 +101,20 @@ public :
 			if (SCENE_ID == 0)
 				break;
 			SCENE_ID--;
+			// init Scene
+			sceneInit();
 			break;
 		case GLUT_KEY_RIGHT:  // Mũi tên trái
 			if (SCENE_ID == 4)
 				break;
 			SCENE_ID++;
+			// init Scene
+			sceneInit();
 			break;
 		default:
 			break;
 		}
-		// init Scene
-		sceneInit();
+		
 		// callback lại hàm đăng ký display
 		glutPostRedisplay();
 	}
@@ -128,6 +131,8 @@ public :
 				if (SCENE_ID == 0)
 					break;
 				SCENE_ID--;
+				// init Scene
+				sceneInit();
 				break;
 			// cảnh sau
 			case 'd':
@@ -135,6 +140,8 @@ public :
 				if (SCENE_ID == 4)
 					break;
 				SCENE_ID++;
+				// init Scene
+				sceneInit();
 				break;
 			// thoát chương trình
 			case 'q':
@@ -144,8 +151,6 @@ public :
 			default:
 				break;
 			}
-		// init Scene
-		sceneInit();
 		// callback lại hàm đăng ký display
 		glutPostRedisplay();
 	}
